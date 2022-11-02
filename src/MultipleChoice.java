@@ -29,6 +29,7 @@ public class MultipleChoice {
                 }
                 else{
                     System.out.println("Sorry You answer is Wrong");
+                    System.out.println("The correct answer is " + correctOpt);
                     correct = false;
                 }
             }
