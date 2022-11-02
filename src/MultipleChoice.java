@@ -1,11 +1,12 @@
+
 import java.util.Scanner;
 
 public class MultipleChoice {
     public static void main(String[] args) {
         String question = "What is the capital of India";
-        String opt1 = "Delhi";
-        String opt2 = "Chennai";
-        String opt3 = "Pune";
+        String opt1 = "delhi";
+        String opt2 = "chennai";
+        String opt3 = "pune";
         Boolean correct = true;
 
         String correctOpt = opt1;
@@ -17,7 +18,7 @@ public class MultipleChoice {
             System.out.println("Enter Your Answer:");
             String opt = scanner.next();
 
-            if (opt.equals("Delhi")) {
+            if (correctOpt.equals(opt.toLowerCase())) {
                 System.out.println("Correct Answer");
                 correct = false;
             } else {
