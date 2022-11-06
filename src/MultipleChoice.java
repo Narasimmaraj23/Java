@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class MultipleChoice {
     public static void main(String[] args) {
+
         String question = "What is the capital of India";
         String opt1 = "delhi";
         String opt2 = "chennai";
